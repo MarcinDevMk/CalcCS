@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przyciski do Pobrania</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+        .download-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .download-button:hover {
+            background-color: #0056b3;
+            transform: translateY(-3px);
+        }
+        .download-button:active {
+            transform: translateY(1px);
+        }
+    </style>
+</head>
+<body>
+    <h1>Wersje do Pobrania</h1>
+    <div class="button-container">
+        <a class="download-button" href="link-do-pobrania-beta" download>Beta</a>
+        <a class="download-button" href="link-do-pobrania-0-1" download>0.1</a>
+        <a class="download-button" href="link-do-pobrania-x1" download>X</a>
+        <a class="download-button" href="link-do-pobrania-x2" download>X</a>
+        <a class="download-button" href="link-do-pobrania-x3" download>X</a>
+    </div>
+</body>
+</html>
